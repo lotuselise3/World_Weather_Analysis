@@ -3,7 +3,7 @@
 ## Module 6 Challenge ~ WeatherPy with Python APIs
 ---
 ## Overview of Project
-- Jack loves the PlanMyTrip app. Beta testers love it too. And, as with any new product, they’ve recommended a few changes to take the app to the next level. Specifically, they recommend adding the weather description to the weather data you’ve already retrieved in this module. Then, you'll have the beta testers use input statements to filter the data for their weather preferences, which will be used to identify potential travel destinations and nearby hotels. From the list of potential travel destinations, the beta tester will choose four cities to create a travel itinerary. Finally, using the Google Maps Directions API, you will create a travel route between the four cities as well as a marker layer map.
+- After helping Jack with the PlanMyTrip app, he and Beta testers loved it and recommended a few changes to take the app to the next level. Specifically, they suggested adding the weather description to the weather data you’ve already retrieved. In a new version of PlanMyTrip App, input statements would inquire the beta testers to filter the data for their personal weather preferences, which will then be used to identify potential travel destinations and nearby hotels. From the list of potential travel destinations, the beta tester will choose four different cities to create a personal travel itinerary. Lastly, using the Google Maps Directions API, the app will create a travel route between the four cities as well as a marker layer map.
 ### Purpose
 - In this module, we practice our analysis, visualization, and statistical skills by retrieving and analyzing weather data for a hypothetical travel company, PlanMyTrip. 
 1. In this challenge, we performed task using new Python libraries and modules (Pandas, gmaps, requests, numpy, random, matplotlib, timeit, scipy, citipy, datetime, time)
@@ -26,10 +26,9 @@
 ![WeatherPy_vacation_map](https://user-images.githubusercontent.com/68654746/178606378-8330bbd9-55c8-427e-aced-55459b296ad9.png)
 
 **Deliverable 3**
-- A travel itinerary that shows the route between four cities chosen from the customer’s possible travel destinations is created from using the Google Directions API. Then finally and as the last part of the application updates, a marker layer map with a pop-up marker for each city on the itinerary is created. A user now has a full blown temperature preferenced based maps itinerary provided for them!
+- Using the Google Directions API key, the PlanMyTrip app will create a personal travel itinerary that shows the route between the four cities chosen from the customer’s possible travel destinations. The last part of the application updates, I created a marker layer map with a pop-up marker for each city on the itinerary. The updated PlanMyTrip app now allows users to plan a temperature-preferenced based map itinerary for their next upsoming trip!
 #### Travel Map
 ![WeatherPy_travel_map](https://user-images.githubusercontent.com/68654746/178606623-2c67a114-3802-406e-aae1-e57a5a543219.png)
 
 #### Travel Map with Markers for each hotel showing Current Weather Descriptions
 ![WeatherPy_travel_map_markers](https://user-images.githubusercontent.com/68654746/178606677-9fb8010a-747f-40be-a67a-a2eea158f2c5.png)
-
